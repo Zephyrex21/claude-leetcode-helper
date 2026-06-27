@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠 Claude LeetCode Helper Skill
+# Claude LeetCode Helper Skill
 
 **A Claude Skill that turns any LeetCode problem into a complete, interview-ready breakdown.**
 
@@ -20,7 +20,7 @@
 Paste any LeetCode problem. The skill delivers a **full interview-ready solution** — not just code, but the entire thinking process a top candidate would walk through:
 
 ```
-💡 Hint  →  Brute Force  →  Optimized Approach  →  Why Not X?
+Hint  →  Brute Force  →  Optimized Approach  →  Why Not X?
 →  STL Toolbox  →  Algorithm  →  Clean C++ Code  →  Line-by-Line
 →  Visual Dry Run  →  C++ Pitfalls  →  Complexity  →  Edge Cases
 →  Interview Tips  →  Similar Problems
@@ -28,29 +28,29 @@ Paste any LeetCode problem. The skill delivers a **full interview-ready solution
 
 ---
 
-## ✨ Features — v2.0.0
+## Features — v2.0.0
 
-| | Feature | Description |
-|---|---|---|
-| 🏷️ | **Answer Header** | Difficulty · Topic · Pattern tag on every answer |
-| 💡 | **Hint Mode** | Guiding nudge before the solution — skippable |
-| 🔁 | **Brute Force First** | Naive C++ + complexity before the optimized solution |
-| 🔖 | **Pattern Recognition** | 17 patterns mapped to their C++ STL containers |
-| ❌ | **Why Not X?** | Rejects the obvious alternative with clear reasoning |
-| 🛠️ | **STL Toolbox** | Every container explained with its role |
-| 🧩 | **Step-by-Step Algorithm** | Numbered breakdown before any code |
-| 💻 | **Clean C++** | Accepted-style `class Solution`, no boilerplate |
-| 📝 | **Line-by-Line Explanation** | Every meaningful line explained |
-| 📊 | **Visual Dry Run** | Table · ASCII pointer diagram · ASCII window · DP table |
-| ⚠️ | **C++ Pitfalls** | Signed/unsigned · overflow · map[] · off-by-one · and more |
-| ⏱️ | **Complexity Analysis** | Time and space with clear reasoning |
-| 🔲 | **Edge Cases** | Boundary inputs with explanations |
-| 🎤 | **Interview Tips** | Exactly what to say at each stage |
-| 🔗 | **Similar Problems** | 2–3 related problems using the same pattern |
+| Feature | Description |
+|---|---|
+| **Answer Header** | Difficulty · Topic · Pattern tag on every answer |
+| **Hint Mode** | Guiding nudge before the solution — skippable |
+| **Brute Force First** | Naive C++ + complexity before the optimized solution |
+| **Pattern Recognition** | 17 patterns mapped to their C++ STL containers |
+| **Why Not X?** | Rejects the obvious alternative with clear reasoning |
+| **STL Toolbox** | Every container explained with its role |
+| **Step-by-Step Algorithm** | Numbered breakdown before any code |
+| **Clean C++** | Accepted-style `class Solution`, no boilerplate |
+| **Line-by-Line Explanation** | Every meaningful line explained |
+| **Visual Dry Run** | Table · ASCII pointer diagram · ASCII window · DP table |
+| **C++ Pitfalls** | Signed/unsigned · overflow · map[] · off-by-one · and more |
+| **Complexity Analysis** | Time and space with clear reasoning |
+| **Edge Cases** | Boundary inputs with explanations |
+| **Interview Tips** | Exactly what to say at each stage |
+| **Similar Problems** | 2–3 related problems using the same pattern |
 
 ---
 
-## 🚀 Installation
+## Installation
 
 1. Download the latest release zip from [Releases](https://github.com/Zephyrex21/claude-leetcode-helper/releases).
 2. Go to **Claude → Settings → Skills**.
@@ -59,36 +59,7 @@ Paste any LeetCode problem. The skill delivers a **full interview-ready solution
 
 ---
 
-## 📌 Example Output
-
-For any pasted LeetCode problem, you get:
-
-```
----
-🏷️ Difficulty: Easy
-📂 Topic: Array
-🔖 Pattern: Hash Map
----
-
-Problem Understanding
-💡 Hint
-Brute Force (O(n²) with code)
-Approach + Why Not Sorting + Two Pointers?
-STL Toolbox → unordered_map<int,int>
-Algorithm (numbered steps)
-Code (class Solution, clean C++)
-Line-by-Line Explanation
-Dry Run (table / ASCII diagram)
-⚠️ C++ Pitfalls (signed/unsigned, operator[] vs .count())
-Complexity → Time: O(n) · Space: O(n)
-Edge Cases
-🎤 Interview Tips
-🔗 Similar Problems → #167, #15, #560
-```
-
----
-
-## 🔖 Supported Patterns
+## Supported Patterns
 
 | Pattern | C++ Container |
 |---|---|
@@ -112,7 +83,7 @@ Edge Cases
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 claude-leetcode-helper/
@@ -127,7 +98,7 @@ claude-leetcode-helper/
 
 ---
 
-## 📋 Changelog
+## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for full version history.
 
@@ -137,19 +108,19 @@ See [CHANGELOG.md](CHANGELOG.md) for full version history.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests and issues are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
-## 👤 Author
+## Author
 
 **Saurabh Raj Shekhar**
 GitHub: [@Zephyrex21](https://github.com/Zephyrex21)
 
 ---
 
-## 📄 License
+## License
 
 MIT — see [LICENSE](LICENSE)
