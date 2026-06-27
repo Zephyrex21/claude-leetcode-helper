@@ -27,6 +27,16 @@ Hint  →  Brute Force  →  Optimized Approach  →  Why Not X?
 ```
 ---
 
+## Preview
+
+> **Input:** `Solve LeetCode #15 - 3Sum`
+
+![Skill Output — Difficulty, Topic, Pattern tag, Problem Understanding, and Hint](screenshots/preview.png)
+
+*Every answer opens with Difficulty, Topic, and Pattern tag — followed by a guiding hint before the full solution.*
+
+---
+
 ## Installation
 
 1. Download the latest release zip from [Releases](https://github.com/Zephyrex21/claude-leetcode-helper/releases).
@@ -62,12 +72,14 @@ Hint  →  Brute Force  →  Optimized Approach  →  Why Not X?
 
 ```
 claude-leetcode-helper/
-├── SKILL.md          ← skill definition, output format, full example
-├── AGENTS.md         ← 17 section rules with format examples
-├── README.md         ← this file
-├── CHANGELOG.md      ← version history
-├── CONTRIBUTING.md   ← contribution guidelines
-├── LICENSE           ← MIT
+├── screenshots/
+│   └── preview.png       <- skill output preview
+├── SKILL.md              <- skill definition, output format, full example
+├── AGENTS.md             <- 17 section rules with format examples
+├── README.md             <- this file
+├── CHANGELOG.md          <- version history
+├── CONTRIBUTING.md       <- contribution guidelines
+├── LICENSE               <- MIT
 └── .gitignore
 ```
 
