@@ -23,5 +23,3 @@ A production-ready Claude Skill that transforms LeetCode problems into interview
 **Saurabh Raj Shekhar**
 GitHub: https://github.com/Zephyrex21
 
-## License
-MIT
