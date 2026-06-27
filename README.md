@@ -25,7 +25,15 @@ Hint  →  Brute Force  →  Optimized Approach  →  Why Not X?
 →  Visual Dry Run  →  C++ Pitfalls  →  Complexity  →  Edge Cases
 →  Interview Tips  →  Similar Problems
 ```
+---
 
+## Installation
+
+1. Download the latest release zip from [Releases](https://github.com/Zephyrex21/claude-leetcode-helper/releases).
+2. Go to **Claude → Settings → Skills**.
+3. Click **Add Skill** and select the downloaded zip.
+4. Paste any LeetCode problem — the skill activates automatically.
+   
 ---
 
 ## Features — v2.0.0
@@ -47,39 +55,6 @@ Hint  →  Brute Force  →  Optimized Approach  →  Why Not X?
 | **Edge Cases** | Boundary inputs with explanations |
 | **Interview Tips** | Exactly what to say at each stage |
 | **Similar Problems** | 2–3 related problems using the same pattern |
-
----
-
-## Installation
-
-1. Download the latest release zip from [Releases](https://github.com/Zephyrex21/claude-leetcode-helper/releases).
-2. Go to **Claude → Settings → Skills**.
-3. Click **Add Skill** and select the downloaded zip.
-4. Paste any LeetCode problem — the skill activates automatically.
-
----
-
-## Supported Patterns
-
-| Pattern | C++ Container |
-|---|---|
-| Hash Map / Set | `unordered_map`, `unordered_set` |
-| Ordered Map / Set | `map`, `set` |
-| Two Pointers | `left`, `right` index variables |
-| Sliding Window | `left`, `right` + frequency map |
-| Prefix Sum | `vector<long long> prefix` |
-| Binary Search | `lower_bound`, `upper_bound`, `lo`/`hi` |
-| Monotonic Stack | `stack<int>` |
-| Heap / Priority Queue | `priority_queue<int>` |
-| Greedy | sort + single pass |
-| Backtracking | recursion + `path` vector |
-| Dynamic Programming 1D | `vector<int> dp` |
-| Dynamic Programming 2D | `vector<vector<int>> dp` |
-| BFS | `queue<int>` + `visited[]` |
-| DFS | recursion or `stack<int>` |
-| Union Find | `parent[]`, `rank[]` |
-| Trie | `TrieNode` struct |
-| Topological Sort | BFS + in-degree array (Kahn's) |
 
 ---
 
